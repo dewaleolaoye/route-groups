@@ -4,8 +4,9 @@ const page = () => {
   return (
     <div>
       <h1>Dashboard Home</h1>
-      <Link href='/dashboard/content'>Content</Link> <br />
-      <Link href='/dashboard/marketing'>Marketing</Link> <br />
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis fugit minima ipsa aliquam consequuntur
+      excepturi mollitia harum aliquid. Velit consequuntur facere quae deleniti quas illum excepturi voluptas amet alias
+      perferendis!
     </div>
   );
 };
