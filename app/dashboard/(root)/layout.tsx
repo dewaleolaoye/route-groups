@@ -1,18 +1,9 @@
-import Link from 'next/link';
+import Sidebar from '@/components/Sidebar';
 
 const layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className='flex gap-8 p-4'>
-      <div className='flex-shrink-0'>
-        <Link href='/dashboard/content'>Content</Link>
-        <br />
-        <br />
-        <br />
-        <Link href='/dashboard/marketing'>Marketing</Link> <br />
-        <br />
-        <br />
-        <Link href='/dashboard'>Home</Link>
-      </div>
+      <Sidebar />
 
       <div>{children}</div>
     </div>
